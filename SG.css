@@ -1,0 +1,283 @@
+body{
+  background: -webkit-linear-gradient(to right, #000000, #fefefe);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000000, #fefefe);
+color: black;
+font-family: roboto, Sans-sarif;
+}
+
+#container{
+  width: 800px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  box-shadow: 5px 5px 5px 5px #777777;
+  margin-bottom: 30px;
+}
+/*967F66*/
+#main {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 840px;
+  margin-left: -20px;
+}
+
+
+#navbar{
+  margin: -80px 0 0 -20px;
+  width: 840px;
+  height: 50px;
+  background-color: #967F66;
+  color: white;
+  position: absolute;
+}
+
+h2{
+  font-family:times;
+}
+
+.linkref{
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-right: 2px solid;
+}
+
+.linkref:hover{
+  color: darkgrey;
+  transition: 1s;
+}
+
+.num{
+  background-color: grey;
+}
+/*******************************************
+************TOP PHOTO DONE******************
+*******************************************/
+
+/*******************************************
+************Start Slider********************
+*******************************************/
+#slider{
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+  margin-left: 40px;
+}
+
+.slides{
+  display: block;
+  width: 6000px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+.slide{
+  float: left;
+  list-style: none;
+  width: 720px;
+  height: 400px;
+}
+
+/*******************************************
+************End Slider**********************
+*******************************************/
+h2{
+  color: #967F66;
+  text-transform: uppercase;
+  padding-top: 50px;
+
+}
+p{
+  color: black;
+  font-size:  20px;
+}
+
+.do{
+  list-style-type: disc;
+  padding-bottom: 15px;
+}
+
+.doli{
+  font-size:  20px;
+}
+
+
+
+/*******************************************
+************Contact Page******************
+*******************************************/
+h1{
+  font-family: Comic Sans Ms;
+  color: #967F66;
+}
+#map{
+  height: 500px;
+  width: 800px;
+
+}
+
+.con{
+  float: left;
+  border: 2px solid black;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.phone{
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.address{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.address1{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+#facebook{
+  background-color: #3b5998;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 29px;
+}
+#facebook:hover{
+  color: #967F66;
+  transition: .6s;
+}
+
+footer{
+  background-color: lightgrey;
+  height: 40px;
+  width: 840px;
+  text-align: center;
+  margin-left: -20px;
+  color: white;
+  margin-top: 30px;
+}
+
+
+/*******************************************
+************End Contact Page****************
+*******************************************/
+
+
+/*******************************************
+***************Start About page*************
+*******************************************/
+.aboutp{
+  line-height: 28px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.build{
+  float: left;
+   height: 200px;
+  margin-left: 10px;
+  width: 200px;
+   margin-right: 15px;
+   margin-bottom: 5px;
+   padding-top: 50px;
+}
+
+.firstone{
+  padding-top: 20px;
+}
+
+.text{
+  display: inline;
+}
+#data{
+  margin-bottom: 20px;
+}
+
+/*******************************************
+************End About page******************
+*******************************************/
+
+/*******************************************
+************Start Service page**************
+*******************************************/
+
+.service{
+  padding-bottom: 10px;
+}
+
+.alink{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.color{
+  color: #967F66;
+}
+
+.alink:hover{
+  background-color: #967F66;
+  color: white;
+  transition: 1s;
+  border: 1px solid #967F66;
+  border-radius: 10px;
+}
+
+#list{
+  list-style: circle;
+}
+
+
+
+h3{
+  padding-bottom: 10px;
+  border-radius: 2px solid black;
+  margin-left: 780px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.arrow{
+  border: 2px solid black;
+  border-radius: 5px ;
+}
+
+.arrow:hover{
+  background-color: #967F66;
+  border: 2px solid #967F66;
+  color: white;
+  transition: 2s;
+}
+
+.right{
+  float: right;
+  padding-top: 50px;
+
+}
+/*******************************************
+************End Serice page******************
+*******************************************/

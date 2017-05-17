@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>Todo List</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+  <link rel="stylesheet" type="text/css" href="SG.css">
+
+  
+  <link rel = "shortcut icon" type = "image/jpg" href = "building1.png">
+</head>
+ 
+
+ <body>
+ 	<div id = 'container'>
+  <div id="main">
+      <img id="image" src="building.jpg" />
+
+  </div>
+  <div id = 'navbar'>
+            <a href="index.html" class = 'linkref'>Home</a>
+            <a href="About.html" class = 'linkref'>About Us</a>
+            <a href="Services.html" class = 'linkref'>Services</a>
+            <a href="ContactUs.html" class = 'linkref num'>Contact Us</a>        
+          </div>
+
+          <div id = 'con'>
+	          <h1>Contact</h1>
+	          <p>For more information or for a free <span class = 'bold'>Quote</span> contact Seamus Gibson and he will deal with you directly.</p>
+          </div>
+          <ul>
+	          <li class = 'phone'><i class="fa fa-phone" aria-hidden="true"></i> 0863741654
+	          <br></li>
+	          <li class = 'address'><i class="fa fa-address-book" aria-hidden="true"></i>Raphoe</li>
+	          <li class = 'address1'>Donegal</li><br>
+	          <a id = 'facebook' href="https://www.facebook.com/SG-Total-Building-Maintenance-1290184674433237/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </ul>
+
+          <h1>Find Us</h1>
+ 	<div id = 'map'></div>
+<script>
+	function initMap(){
+		var location = {lat: 54.873871, lng: -7.599438};
+		var map = new google.maps.Map(document.getElementById('map'),{zoom: 10,
+			 center: location
+			});
+		var marker = new google.maps.Marker({
+			position: location,
+			map: map
+			//icon: 'building1.png'
+		});
+	}
+</script><script async defer src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC9qSq4ZKMmGAppzOfSUQeH3gY12uyKt6k&callback=initMap'></script>
+
+<div>
+    <footer></footer>
+ </div>
+ </body>
+ </html>
